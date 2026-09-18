@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SILVESTRIS // WHITE HAT — Ethical Hacker & Pentester</title>
+<meta name="description" content="Silvestris — White Hat Ethical Hacker. Web Pentest, Vuln Scan, Network Pentest, OSINT, Hesap Kurtarma, Eğitim ve Tool Geliştirme." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡️</text></svg>">
+</head>
+<body>
+<canvas id="matrix"></canvas>
+<div class="grid-overlay"></div>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="#top" class="logo">
+      <span class="logo-box">&gt;_</span>
+      <span class="logo-text">SILVESTRIS<span class="logo-dim">//WHITE_HAT</span></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#hizmetler">Hizmetler</a>
+      <a href="#surec">Süreç</a>
+      <a href="#kurallar">Kurallar</a>
+      <a href="#iletisim" class="btn btn-sm btn-primary">Telegram'dan Yaz</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Menü">☰</button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#hizmetler">Hizmetler</a>
+    <a href="#surec">Süreç</a>
+    <a href="#kurallar">Kurallar</a>
+    <a href="#iletisim">İletişim</a>
+  </div>
+</header>
+
+<main id="top">
+<!-- HERO -->
+<section class="hero container">
+  <div class="hero-left">
+    <div class="status-pill"><span class="dot"></span> AKTİF — SİPARİŞLERE AÇIK | %100 WHITE HAT</div>
+    <h1>SILVESTRIS<br><span class="neon">// WHITE HAT</span></h1>
+    <p class="subtitle">Ethical Hacker &amp; Pentester</p>
+    <div class="terminal">
+      <div class="term-bar"><span></span><span></span><span></span><span class="term-title">silvestris@secure:~</span></div>
+      <div class="term-body">
+        <div><span class="g">$</span> whoami</div>
+        <div class="out">white-hat pentester — izinli sistemlerde çalışırım</div>
+        <div><span class="g">$</span> <span id="typed"></span><span class="caret">█</span></div>
+      </div>
+    </div>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="https://t.me/Silvestris0" target="_blank" rel="noopener">📩 Telegram: @Silvestris0</a>
+      <a class="btn btn-ghost" href="#hizmetler">🛠️ Hizmetleri Gör</a>
+    </div>
+    <p class="micro">HİZMET + DETAY İLE YAZ — örn: “WEB PENTEST + site.com, WP altyapı”</p>
+  </div>
+  <div class="hero-right">
+    <div class="card id-card">
+      <div class="id-top">
+        <div class="avatar">S</div>
+        <div>
+          <strong>SILVESTRIS</strong>
+          <div class="muted">White Hat | Pentester | OSINT</div>
+        </div>
+        <div class="shield">🛡️</div>
+      </div>
+      <div class="id-grid">
+        <div><span>UZMANLIK</span><b>Web • Network • API</b></div>
+        <div><span>RAPOR</span><b>Türkçe PDF + Çözüm</b></div>
+        <div><span>KAPORA</span><b>%15 İş Öncesi</b></div>
+        <div><span>ÖDEME</span><b>Papara / Kripto / Havale</b></div>
+      </div>
+      <div class="id-badges">
+        <span>✅ İzinli Sistem</span><span>✅ Gizlilik</span><span>✅ Hızlı Teslim</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<section class="container trust">
+  <div>🔒 <b>Gizlilik Garantisi</b><small>Verileriniz 3. kişilerle paylaşılmaz</small></div>
+  <div>📄 <b>PDF Rapor</b><small>Bulgu + risk seviyesi + çözüm önerisi</small></div>
+  <div>⚡ <b>Hızlı Başlangıç</b><small>Kapora sonrası aynı gün planlama</small></div>
+  <div>🎓 <b>İlk Seans Ücretsiz</b><small>Eğitim / danışmanlık tanışma seansı</small></div>
+</section>
+
+<!-- SERVICES -->
+<section id="hizmetler" class="container section">
+  <div class="sec-head">
+    <p class="kicker">━━━━━━━━ HİZMETLER & ÜCRETLER / SERVICES & PRICES ━━━━━━━━</p>
+    <h2>Ne yapıyorum?</h2>
+    <p class="muted">Fiyatlar başlangıç fiyatıdır — siteye / kapsama göre netleşir. Detay için Telegram'dan yazın.</p>
+  </div>
+  <div class="cards">
+
+    <article class="svc featured">
+      <div class="tag">POPÜLER</div>
+      <div class="num">01</div>
+      <h3>🌐 WEB PENETRASYON TESTİ</h3>
+      <p class="en">Web Pentest + Full Report</p>
+      <p>Site / Panel / API sızma testi + detaylı <b>PDF rapor</b>. SQLi, XSS, IDOR, Auth bypass, RCE ve daha fazlası.</p>
+      <ul><li>✔ Manuel + otomatik test</li><li>✔ Risk seviyeli PDF rapor</li><li>✔ Çözüm önerileri</li></ul>
+      <div class="price">500₺ <span>—</span> 3.000₺ <small>/ siteye göre</small></div>
+      <a class="btn btn-primary btn-block" data-svc="WEB PENTEST" href="https://t.me/Silvestris0" target="_blank" rel="noopener">Sipariş Ver</a>
+    </article>
+
+    <article class="svc">
+      <div class="num">02</div>
+      <h3>🔍 ZAFİYET TARAMASI <small>[Vuln Scan]</small></h3>
+      <p class="en">Quick vulnerability assessment</p>
+      <p>Hızlı açık taraması + <b>kritik bulgular</b> özeti. Pentest öncesi durum tespiti için ideal.</p>
+      <ul><li>✔ Otomatik tarama</li><li>✔ Kritik bulgu listesi</li></ul>
+      <div class="price">300₺</div>
+      <a class="btn btn-ghost btn-block" data-svc="VULN SCAN" href="https://t.me/Silvestris0" target="_blank" rel="noopener">Sipariş Ver</a>
+    </article>
+
+    <article class="svc">
+      <div class="num">03</div>
+      <h3>📡 NETWORK / WI-FI PENTEST</h3>
+      <p class="en">Corporate network & server testing</p>
+      <p>Şirket ağı, sunucu ve Wi-Fi güvenlik testi. İç / dış ağ, yanlış yapılandırma ve erişim kontrolleri.</p>
+      <ul><li>✔ Ağ + sunucu denetimi</li><li>✔ Kurumsal rapor</li></ul>
+      <div class="price">5.000₺ <small>'den başlayan</small></div>
+      <a class="btn btn-ghost btn-block" data-svc="NETWORK PENTEST" href="https://t.me/Silvestris0" target="_blank" rel="noopener">Teklif Al</a>
+    </article>
+
+    <article class="svc">
+      <div class="num">04</div>
+      <h3>🕵️ OSINT ARAŞTIRMASI</h3>
+      <p class="en">Manual deep investigation</p>
+      <p>Kişi / kurum / dolandırıcılık araştırması. Elle tek tek bulunabilecek <b>bütün bilgiler</b> araştırılır.</p>
+      <ul><li>✔ Derin manuel araştırma</li><li>✔ Kaynaklı rapor</li></ul>
+      <div class="price">500₺</div>
+      <a class="btn btn-ghost btn-block" data-svc="OSINT DERIN" href="https://t.me/Silvestris0" target="_blank" rel="noopener">Sipariş Ver</a>
+    </article>
+
+    <article class="svc">
+      <div class="num">05</div>
+      <h3>🗂️ OSINT ARAŞTIRMASI (2)</h3>
+      <p class="en">Dataset-only lookup</p>
+      <p>Kişiye özel bilgi edinme — <b>sadece hazır datasette</b> incelenir. İkametgah, çalışma yeri, taşınmaz bilgisi vs.</p>
+      <ul><li>✔ Hızlı sorgu</li><li>✘ Sosyal medya hesabı bulma hariç</li></ul>
+      <div class="price">100₺</div>
+      <a class="btn btn-ghost btn-block" data-svc="OSINT DATASET" href="https://t.me/Silvestris0" target="_blank" rel="noopener">Sorgu Yap</a>
+    </article>
+
+    <article class="svc">
+      <div class="num">06</div>
+      <h3>🔐 HESAP KURTARMA & KORUMA</h3>
+      <p class="en">Account recovery (with proof)</p>
+      <p>Çalınan IG / TG / Mail hesabı geri alma. <b>Sahiplik kanıtı şart.</b> Sonrasında 2FA + güvenlik sertleştirme.</p>
+      <ul><li>✔ Sahiplik doğrulamalı</li><li>✔ Koruma kurulumu</li></ul>
+      <div class="price">500₺</div>
+      <a class="btn btn-ghost btn-block" data-svc="HESAP KURTARMA" href="https://t.me/Silvestris0" target="_blank" rel="noopener">Destek Al</a>
+    </article>
+
+    <article class="svc accent">
+      <div class="tag green">İLK SEANS ÜCRETSİZ</div>
+      <div class="num">07</div>
+      <h3>🎓 EĞİTİM / DANIŞMANLIK</h3>
+      <p class="en">1-on-1 Training / Consultancy</p>
+      <p>1-1 siber güvenlik eğitimi, soru-cevap. Sıfırdan başlayanlara ve junior pentesterlara yol haritası.</p>
+      <ul><li>✔ Canlı 1-1 seans</li><li>✔ Kayıt + notlar</li></ul>
+      <div class="price">300₺<small>/saat</small> · 1000₺<small>/4 saat paket</small></div>
+      <a class="btn btn-ghost btn-block" data-svc="EGITIM" href="https://t.me/Silvestris0" target="_blank" rel="noopener">Rezervasyon</a>
+    </article>
+
+    <article class="svc">
+      <div class="num">08</div>
+      <h3>⚙️ TOOL YAZMA</h3>
+      <p class="en">Custom automation & apps</p>
+      <p>Kişiye özel otomatize araçlar ve uygulama geliştirme. Tarama, raporlama, OSINT otomasyonları.</p>
+      <ul><li>✔ İhtiyaca özel kod</li><li>✔ Kurulum desteği</li></ul>
+      <div class="price">500₺ <small>'den başlayan</small></div>
+      <a class="btn btn-ghost btn-block" data-svc="TOOL YAZMA" href="https://t.me/Silvestris0" target="_blank" rel="noopener">Teklif Al</a>
+    </article>
+
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="surec" class="container section">
+  <div class="sec-head"><p class="kicker">⚙️ NASIL ÇALIŞIR?</p><h2>4 adımda sipariş</h2></div>
+  <div class="steps">
+    <div class="step"><span>1</span><b>Hizmet + detay ile yaz</b><p>Telegram'da ne istediğini, site/kapsam bilgisini gönder.</p></div>
+    <div class="step"><span>2</span><b>%15 kapora</b><p>Papara / Kripto / Havale ile yerini ayırt.</p></div>
+    <div class="step"><span>3</span><b>Test / araştırma</b><p>İzinli kapsamda çalışma başlar, süreçte bilgilendirilirsin.</p></div>
+    <div class="step"><span>4</span><b>Rapor + teslim</b><p>PDF rapor / sonuç teslimi, kalan ödeme.</p></div>
+  </div>
+</section>
+
+<!-- RULES -->
+<section id="kurallar" class="container section">
+  <div class="sec-head"><p class="kicker">📜 KURALLAR / RULES</p><h2>Sınırlarım net</h2></div>
+  <div class="rules">
+    <div class="rule ok"><span>✅</span><div><b>Sadece kendi siten / izinli sistem</b><p>Yetkisiz hedefte çalışmam. İzin belgesi / sahiplik istenir.</p></div></div>
+    <div class="rule ok"><span>✅</span><div><b>İş öncesi %15 kapora</b><p>Kapora alınmadan teste başlanmaz.</p></div></div>
+    <div class="rule ok"><span>✅</span><div><b>Ödeme: Papara / Kripto / Havale</b><p>Ödeme onayı sonrası teslimat yapılır.</p></div></div>
+    <div class="rule no"><span>❌</span><div><b>Hesap çalma, bot basma, şantaj, takip YOK</b><p>Black-hat işler kesinlikle yapılmaz ve sorulmamalıdır.</p></div></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="iletisim" class="container section contact">
+  <div class="contact-box">
+    <div>
+      <p class="kicker">📩 İLETİŞİM / CONTACT</p>
+      <h2>Telegram'dan yaz, <br>aynı gün dönüş al.</h2>
+      <p class="muted">Mesaj formatı: <code>HİZMET + DETAY</code> — Örnek:<br><code>WEB PENTEST + ornek.com, login paneli var, acil</code></p>
+      <div class="tg-row">
+        <code id="tgHandle">@Silvestris0</code>
+        <button class="btn btn-sm btn-ghost" id="copyBtn">Kopyala</button>
+      </div>
+    </div>
+    <div class="contact-cta">
+      <a class="btn btn-primary btn-lg" id="tgBtn" href="https://t.me/Silvestris0" target="_blank" rel="noopener">Telegram'da Aç ↗</a>
+      <p class="micro">Ortalama dönüş: <b>birkaç saat içinde</b> • 09:00–23:00 (TSİ)</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container foot">
+    <span>© 2026 SILVESTRIS // WHITE HAT</span>
+    <span class="muted">Tüm testler yalnızca izinli sistemlerde yapılır. Sorumluluk kullanıcıya aittir.</span>
+  </div>
+</footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
